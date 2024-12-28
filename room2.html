@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Room 2</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images/spider.png">
+
+</head>
+<body>
+    
+    <div class="keycont">
+        <div class="room2"><h1>Room 2: Find the key and be free</h1></div>
+        <div class="hidden-digit" data-digit="13" style="top: 460px; left: 500px;">13</div>
+        <div class="hidden-digit" data-digit="27" style="top: 710px; left: 1197px;">27</div>
+        <div class="hidden-digit" data-digit="31" style="top: 425px; left: 1040px;">31</div>
+        <div class="hidden-digit" data-digit="44" style="top: 285px; left: 514px;">44</div>
+        <div class="hidden-digit" data-digit="56" style="top: 696px; left: 375px;">56</div>
+        <div class="hidden-digit" data-digit="69" style="top: 235px; left: 1030px;">69</div>
+    </div>
+    <form action="validation.html" method="GET">
+        <input type="text" name="key" pattern="^[0-9]{6}$" placeholder="000000" maxlength="6" required>
+        <button type="submit"></button>
+    </form>
+</body>
+</html>
