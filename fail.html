@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="refresh" content="0; url=fail.html" />
+  <title>Validating...</title>
+</head>
+<body>
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const key = params.get('key');
+    if (key === "371469") {
+      window.location.replace("end.html");
+    } else {
+      window.location.replace("fail.html");
+    }
+  </script>
+</body>
+</html>
